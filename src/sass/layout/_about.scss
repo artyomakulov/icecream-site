@@ -1,0 +1,265 @@
+.about {
+  background: #fff5f6;
+  padding-top: 125px;
+  padding-bottom: 39px;
+  @media screen and (min-width: 768px) {
+    padding-top: 130px;
+  }
+  @media screen and (min-width: 1080px) {
+    padding-top: 125px;
+    @media screen and (min-width: 1080px) and (max-width: 2050px) {
+      background-image: url(../images/about-des-milk-1x-min.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 0% 110%;
+      @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../images/about-des-milk-2x-min.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0% 88%;
+      }
+    }
+  }
+}
+.about-container {
+  background-image: url(../images/about-mob-milk-1x-min.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0% 88%;
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/about-mob-milk-2x-min.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 88%;
+  }
+  @media screen and (min-width: 768px) {
+    background-image: none;
+    display: flex;
+  }
+}
+.back {
+  width: 280px;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    height: 339px;
+    margin-right: 17px;
+  }
+  @media screen and (min-width: 1080px) {
+    width: 516px;
+    height: auto;
+    margin: 0 0;
+  }
+}
+
+.background {
+  @media screen and (min-width: 320px) {
+    width: 280px;
+    height: 279px;
+    background-image: url(../images/about-mob-1x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/about-mob-2x.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    @media screen and (min-width: 768px) {
+      width: 340px;
+      height: 339px;
+      background-image: url(../images/about-tab-1x-min.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../images/about-tab-2x-min.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    @media screen and (min-width: 1080px) {
+      width: 516px;
+      height: 516px;
+      margin-right: 74px;
+      margin-left: 0;
+      margin-right: 0;
+      background-image: url(../images/about-Des-1x-min.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../images/about-Des-2x-min.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}
+
+.about__pre-text {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffa5ba;
+  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: calc(30 / 26);
+  }
+  @media screen and (min-width: 1080px) {
+    font-size: 30px;
+    line-height: calc(34 / 30);
+  }
+}
+
+.about__title {
+  width: 200px;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: calc(39 / 34);
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-bottom: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    font-size: 48px;
+    line-height: calc(55 / 48);
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @media screen and (min-width: 1080px) {
+    font-size: 58px;
+    line-height: calc(66 / 58);
+    letter-spacing: 0.06em;
+    margin-bottom: 55px;
+  }
+}
+
+.about-text {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    margin-top: 46px;
+  }
+  @media screen and (min-width: 1080px) {
+    margin-left: 74px;
+  }
+}
+
+.about-text__one {
+  width: 220px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(19 / 12);
+  color: #000000;
+  margin-bottom: 47px;
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    font-size: 14px;
+    line-height: calc(25 / 14);
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 49px;
+  }
+  @media screen and (min-width: 1080px) {
+    width: 463px;
+    font-size: 16px;
+    line-height: calc(28 / 16);
+    letter-spacing: 0.04em;
+    margin-bottom: 35px;
+  }
+}
+
+.about-text__second {
+  width: 220px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(19 / 12);
+  color: #907e82;
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    font-size: 14px;
+    line-height: calc(25 / 14);
+    letter-spacing: 0.04em;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  @media screen and (min-width: 1080px) {
+    width: 463px;
+    height: 155px;
+    font-size: 14px;
+    line-height: calc(27 / 14);
+    letter-spacing: 0.04em;
+  }
+}
+
+.about-button {
+  width: 176px;
+  height: 44px;
+  margin-top: 47px;
+  padding-left: 37px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: #ffffff;
+  border-radius: 22px;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+    font-size: 16px;
+    line-height: calc(21 / 16);
+  }
+}
+
+.about-button__icon {
+  margin-left: 5px;
+  fill: #d41443;
+}
+
+.about-button__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  color: #d41443;
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: calc(21 / 16);
+  }
+}
