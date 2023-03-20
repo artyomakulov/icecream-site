@@ -1,11 +1,11 @@
 .contacts__section {
   background: linear-gradient(to bottom, #ffffff 11%, #fff5f6 11%);
   padding-top: 86px;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     padding-top: 119px;
     background: linear-gradient(to bottom, #ffffff 25%, #fff5f6 25%);
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     padding-top: 132px;
     background-image: url(../images/contacts-1x.png),
       linear-gradient(to bottom, #ffffff 25%, #fff5f6 25%);
@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 54px;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     flex-direction: row;
 
@@ -35,7 +35,7 @@
     justify-content: center;
     margin-bottom: 81px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and  (min-width: $desktop) {
     margin-bottom: 86px;
   }
 }
@@ -47,13 +47,13 @@
   padding-right: 20px;
   padding-top: 43px;
   padding-bottom: 43px;
-  @media screen and(min-width: $mobile) {
+  @media screen and (min-width: $mobile) {
     width: 220px;
   }
   &:not(:last-child) {
     margin-bottom: 20px;
   }
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     padding-left: 31px;
     padding-right: 32px;
     padding-top: 50px;
@@ -63,7 +63,7 @@
       margin-bottom: 0;
     }
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     width: 330px;
     padding-left: 43px;
     padding-right: 44px;
@@ -77,10 +77,10 @@
 
 .contacts-top {
   margin-bottom: 25px;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 30px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin-bottom: 32px;
   }
 }
@@ -103,11 +103,11 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 30px;
     font-size: 16px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin-bottom: 32px;
   }
 }
@@ -130,11 +130,11 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 30px;
     font-size: 16px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin-bottom: 32px;
   }
 }
@@ -147,11 +147,11 @@
   line-height: 186%;
   letter-spacing: 0.04em;
   color: #000000;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 14px;
     font-size: 14px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin-bottom: 10px;
     font-size: 16px;
   }
@@ -165,12 +165,12 @@
   color: #907e82;
   padding-bottom: 25px;
   border-bottom: 1px solid #e1e1e1;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     padding-bottom: 30px;
     font-size: 14px;
     line-height: 166%;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     padding-bottom: 32px;
     font-size: 16px;
   }
@@ -178,12 +178,12 @@
 
 .contacts-center {
   margin-bottom: 25px;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin-bottom: 32px;
   }
 }
@@ -200,10 +200,10 @@
     margin-top: 0;
   }
 
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     font-size: 14px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin-bottom: 0px;
     font-size: 16px;
   }
@@ -221,17 +221,17 @@
   &:last-child {
     padding-bottom: 25px;
     border-bottom: 1px solid #e1e1e1;
-    @media screen and(min-width: $tablet) {
+    @media screen and (min-width: $tablet) {
       padding-bottom: 30px;
     }
-    @media screen and(min-width: $desktop) {
+    @media screen and (min-width: $desktop) {
       padding-bottom: 32px;
     }
   }
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     font-size: 14px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     font-size: 16px;
   }
 }
@@ -242,11 +242,11 @@
   font-size: 12px;
   line-height: 18px;
   color: #907e82;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     font-size: 14px;
     line-height: 183%;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     font-size: 16px;
   }
 }
@@ -257,11 +257,11 @@
   font-size: 12px;
   line-height: 18px;
   color: #907e82;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     font-size: 14px;
     line-height: 183%;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     font-size: 16px;
   }
 }
@@ -270,7 +270,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     flex-direction: row;
   }
 }
@@ -296,13 +296,13 @@
   &:focus {
     background: #c7133e;
   }
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 0;
     margin-right: 15px;
     padding-left: 30px;
     width: 192px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin-right: 15px;
     padding-left: 35px;
     width: 198px;
@@ -329,12 +329,12 @@
   &:focus {
     background: #ecebeb;
   }
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 0;
     padding-left: 30px;
     width: 174px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     padding-left: 39px;
     width: 180px;
   }
@@ -368,10 +368,10 @@
   animation-name: changeModalBtn;
   animation-duration: 2000ms;
   z-index: 3;
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     width: 500px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     width: 640px;
     height: 640px;
   }
@@ -391,11 +391,11 @@
   cursor: pointer;
 }
 .contacts__map {
-  @media screen and(min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     width: 500px;
     height: 500px;
   }
-  @media screen and(min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     width: 640px;
     height: 640px;
   }
